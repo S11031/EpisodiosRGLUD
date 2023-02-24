@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "episodios_gluds",
+  "info": {
+    "singularName": "episodios-glud",
+    "pluralName": "episodios-gluds",
+    "displayName": "EpisodiosGlud"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Programa": {
+      "type": "text"
+    },
+    "NombreEpisodio": {
+      "type": "text"
+    },
+    "FechaPublicacion": {
+      "type": "date"
+    },
+    "LocutorEpisodio": {
+      "type": "text"
+    },
+    "Imagen": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Descripcion": {
+      "type": "richtext"
+    }
+  }
+}

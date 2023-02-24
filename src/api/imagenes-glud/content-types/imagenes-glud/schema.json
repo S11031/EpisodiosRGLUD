@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "imagenes_gluds",
+  "info": {
+    "singularName": "imagenes-glud",
+    "pluralName": "imagenes-gluds",
+    "displayName": "Imagenes GLUD"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Numero_Imagen": {
+      "type": "integer"
+    },
+    "Imagen": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Fecha_Imagen": {
+      "type": "date"
+    }
+  }
+}
